@@ -4,9 +4,7 @@
   "private": true,
   "homepage": "https://nvminhtam.github.io/deploy-github/",
   "scripts": {
-    "start": "node ./bin/www",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "start": "node ./bin/www"
   },
   "dependencies": {
     "bcrypt": "^5.1.0",
